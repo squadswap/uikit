@@ -24,7 +24,7 @@ const PriceLink = styled.a`
 const CakePrice: React.FC<Props> = ({ cakePriceUsd }) => {
   return cakePriceUsd ? (
     <PriceLink
-      href="https://greenhouseswap.finance/#/swap?outputCurrency=0x8F0697bE1D6AF7e3415D87d6BaD1073e5c6459D2"
+      href="https://sqadswap.finance/#/swap?outputCurrency=0x8F0697bE1D6AF7e3415D87d6BaD1073e5c6459D2"
       target="_blank"
     >
       <PancakeRoundIcon width="24px" mr="8px" />
