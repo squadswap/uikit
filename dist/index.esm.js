@@ -3902,7 +3902,7 @@ var Logo = function (_a) {
         React.createElement(LogoWithText, { className: "desktop-icon", isDark: isDark })));
     return (React.createElement(Flex, null,
         React.createElement(MenuButton, { "aria-label": "Toggle menu", onClick: togglePush, mr: "24px" }, isPushed ? (React.createElement(Icon$d, { width: "24px", color: "textSubtle" })) : (React.createElement(Icon$e, { width: "24px", color: "textSubtle" }))),
-        isAbsoluteUrl ? (React.createElement(StyledLink, { as: "a", href: href, "aria-label": "GreenhouseSwap home page" }, innerLogo)) : (React.createElement(StyledLink, { to: href, "aria-label": "GreenhouseSwap home page" }, innerLogo))));
+        isAbsoluteUrl ? (React.createElement(StyledLink, { as: "a", href: href, "aria-label": "SQADSWAP home page" }, innerLogo)) : (React.createElement(StyledLink, { to: href, "aria-label": "SQADSWAP home page" }, innerLogo))));
 };
 var Logo$1 = React.memo(Logo, function (prev, next) { return prev.isPushed === next.isPushed && prev.isDark === next.isDark; });
 var templateObject_1$d, templateObject_2$7;
